@@ -1,0 +1,123 @@
+.tab-5 {
+  background-color: #fff;
+  width: 100%;
+  height: 910px;
+}
+.tab-5 .tab-show {
+  width: 800px;
+  height: 743px;
+  padding: 26px 32px;
+}
+.tab-5 .tab-show .t5-head {
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  line-height: 40px;
+  font-size: 15px;
+}
+.tab-5 .tab-show .t5-head span {
+  margin-right: 10px;
+  padding-bottom: 7px;
+  cursor: pointer;
+}
+.tab-5 .tab-show .t5-head span:hover {
+  border-bottom: 3px solid #43aefc;
+  color: #000;
+  font-weight: bold;
+}
+.tab-5 .tab-show .t5-nav {
+  width: 100%;
+  height: 45px;
+  background-color: #f5f4f3;
+  line-height: 45px;
+}
+.tab-5 .tab-show .t5-nav span:nth-child(1) {
+  margin-left: 53px;
+  margin-right: 245px;
+}
+.tab-5 .tab-show .t5-nav span:nth-child(3) {
+  margin-left: 89px;
+  margin-right: 70px;
+}
+.tab-5 .tab-show .t5-box {
+  width: 100%;
+  height: 96px;
+  padding: 15px 0px;
+  border-bottom: 1px solid #d9d9de;
+}
+.tab-5 .tab-show .t5-box .t5-img1 {
+  float: left;
+}
+.tab-5 .tab-show .t5-box .t5-box1 {
+  float: left;
+  height: 100%;
+  width: 160px;
+  margin: 0px 116px 0px  25px;
+  padding-top: 17px;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+.tab-5 .tab-show .t5-box .t5-box1 .h5-span1 {
+  font-size: 12px;
+  color: #bababa;
+  display: block;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.tab-5 .tab-show .t5-box .t5-box1 .h5-span2 {
+  font-size: 13px;
+  display: block;
+  margin-left: 5px;
+}
+.tab-5 .tab-show .t5-box .h5-span3,
+.tab-5 .tab-show .t5-box .h5-span4,
+.tab-5 .tab-show .t5-box .h5-box2 {
+  float: left;
+  display: block;
+  height: 100%;
+  width: 60px;
+  padding-top: 36px;
+  box-sizing: border-box;
+  font-size: 13px;
+  font-weight: bold;
+}
+.tab-5 .tab-show .t5-box .h5-span4 {
+  margin: 0px 60px 0px 100px ;
+}
+.tab-5 .tab-show .t5-box .h5-box2 {
+  padding-top: 27px;
+  text-align: center;
+}
+.tab-5 .tab-show .t5-box .h5-box2 a {
+  color: #85c6fd;
+}
+.tab-5 .t5-detail-number {
+  width: 100%;
+  padding: 11px 182px;
+  box-sizing: border-box;
+}
+.tab-5 .t5-detail-number span {
+  border: 1px solid #e2e2e5;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+.tab-5 .t5-detail-number span:hover {
+  color: white;
+  border-radius: 5px;
+  background-color: #ff4200;
+}
+.tab-5 .t5-detail-number .t5-detail-number-7 {
+  font-family: "微软雅黑";
+  font-weight: bolder;
+  color: #999999;
+}
+.tab-5 .t5-detail-number .t5-detail-number-8 {
+  width: 60px;
+  font-family: "微软雅黑";
+}

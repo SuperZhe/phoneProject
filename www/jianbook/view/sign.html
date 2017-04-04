@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="../app-ecb5d9ab5d.min.css" />
+		<link rel='icon' href='../img/logo.png' type=‘image/x-ico’ />
+	</head>
+
+	<body>
+	<div class="ccl-nav"></div>
+		<section>
+			<div class="cxt-sign">
+				<div class="sign-logo">
+					<a href="#">
+						<img src="../img/img_logo.png" alt="" />
+					</a>
+				</div>
+
+				<div class="sign-title">
+					<a class="sign_in_click active" class="active">登录</a>
+					<span>·</span>
+					<a class="sign_out_click">注册</a>
+				</div>
+
+				<div class="sign-form">
+					<form id="form" action="1.php">
+						<div class="sign_in">
+							<div class="input_text">
+								<span class="iconfont icon-denglu"></span>
+								<input class="" type="email" name="" id="email" value="" placeholder="手机号码/电子邮件" />
+							</div>
+							<div class="input_password">
+								<span class="iconfont icon-mima"></span>
+								<input class="" type="password" name="" id="password" value="" placeholder="密码" />
+							</div>
+							<button class="form_btn form_btn_in" type="submit">登录</button>
+							<div class="form_remember clear">
+								<div class="form_remember_left">
+									<input type="checkbox" name="" id="remember" />
+									<label for="remember">
+									记住我
+								</label>
+								</div>
+								<div class="form_remember_right">
+									<span>忘记密码</span>
+								</div>
+							</div>
+							<div class="form_otherLogin">
+								<a href="#">海外手机登录</a>
+							</div>
+						</div>
+						
+						
+						<div class="sign_out" style="display: none;">
+							<div class="input_text">
+								<span class="iconfont icon-youjian"></span>
+								<input class="" type="email" name="" id="email" value="" placeholder="你的邮件" />
+							</div>
+							<div class="input_text">
+								<span class="iconfont icon-denglu"></span>
+								<input class="" type="text" name="" id="name" value="" placeholder="选一个昵称" />
+							</div>
+							<div class="input_password">
+								<span class="iconfont icon-mima"></span>
+								<input class="" type="password" name="" id="password" value="" placeholder="输入密码" />
+							</div>
+							<button class="form_btn form_btn_out">注册</button>
+							<div class="form_know">
+								<p>
+									点击“注册”或下方社交登录按钮，即表示您同意并愿意遵守简书
+									<a href="#">用户协议</a> 和
+									<a href="#">隐私政策</a> 。
+								</p>
+							</div>
+						</div>
+					</form>
+					<div class="hr"></div>
+					<div class="other_login">
+						<p>您还可以通过以下方式直接登录</p>
+						<ul class="clear">
+							<li>
+								<a href=""><span class="iconfont icon-weibo"></span></a>
+							</li>
+							<li>
+								<a href=""><span class="iconfont icon-qq"></span></a>
+							</li>
+							<li>
+								<a href=""><span class="iconfont icon-douban"></span></a>
+							</li>
+							<li>
+								<a href=""><span class="iconfont icon-google"></span></a>
+							</li>
+							<li>
+								<a href=""><span class="iconfont icon-weixin"></span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src="../bower_components/jquery/dist/jquery1.42.min.js"></script>
+		<script src="../bower_components/underscore/underscore.js"></script>
+		<script src="../bower_components/seajs/dist/sea.js"></script>
+		<script src="../js/sign.js"></script>
+		<script type="text/javascript">
+			seajs.config({
+				base:'./'
+			});
+			seajs.use('../js/sign.js');
+		</script>
+	</body>
+
+</html>

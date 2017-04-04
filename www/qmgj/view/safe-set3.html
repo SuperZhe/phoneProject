@@ -1,0 +1,22 @@
+<div class="ss-2">
+	
+	<div class="ss-box1 ss-box2">
+	 		<span>邮箱地址</span>
+	 		<input type="text" name="">
+	 </div>	
+	<div class="ss-box5" >
+	 	<form novalidate name="myForm">
+	 		<span>验证码</span>
+	 		<input class="ss3-input" type="text" placeholder="输入验证码" name="code" ng-model='code' ng-minlength="4" required >
+	 		<span class="ss3-span2">免费获取验证码</span>
+	 		</form>
+	 	</div>
+	 	<div class="ss-result3">
+		<div style="color:red" ng-show="myForm.code.$dirty && myForm.code.$error.required">
+	    验证码必填 </div>
+		<div style="color:red" ng-show=" myForm.code.$dirty && myForm.code.$error.minlength">
+	    验证码错误，请重新输入！</div>
+	    </div>
+	 <span class="ss2-span3">保存</span>
+	 	
+</div>

@@ -1,0 +1,84 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--苹果手机全屏问题-->
+<meta content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0" name="viewport" />        
+<meta content="yes" name="apple-mobile-web-app-capable" />
+<meta content="black" name="apple-mobile-web-app-status-bar-style" /> 
+<meta content="telephone=no" name="format-detection" /> 
+
+<title>投票</title>
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/animate.css" rel="stylesheet" type="text/css">
+<link href="css/sweet-alert.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon.ico" />
+
+</head>
+<body style="background: url(images/backgroundToMissSi.png) top left no-repeat;background-size: 100%;"  >
+    <div class="gridContainer clearfix">
+      <div id="div2" class="fluid bounceInLeft animated">
+        <img src="images/2017.png" style="width: 88%;">
+      </div>
+      <div id="div2_1" class="fluid bounceInRight animated">
+        <img src="images/nianhui.png" style="width: 80%;">
+      </div>
+    </div>
+    
+    
+    <div class="gridContainer clearfix">
+      <div id="div3" class="fluid flipInX animated">
+        <img src="images/logo1.png" style="width:80%;">
+        <img src="images/logo2.png" style="width: 50%" alt="">
+      </div>
+    </div>
+    
+    <div class="gridContainer clearfix" style="z-index:99;">
+      <div id="div4" class="fluid bounceIn animated" style="z-index:999;">
+        <a href="content.html" class="go btn gotoone" style="z-index:9999;"></a>
+      </div>
+    </div>
+    
+    <div class="gridContainer clearfix" style="z-index:99;">
+      <div id="div4" class="fluid bounceIn animated" style="z-index:999;animation-delay:4s;
+	-webkit-animation-delay:4s;
+	-moz-animation-delay:4s;
+	margin-top: 2em;
+	z-index:10;">
+       <!--  <a  class="go btn" style="z-index:9999;" onClick="swal('投票规则', '2016游大大年终总结大会,本次年会共有十个节目,大家在欣赏年会的同时可以对自己喜欢的节目进行投票,每人只能投一次哦!本次年会结束会依据投票结果选出本年会最受欢迎的节目')">投票规则</a> -->
+       <a href="people.html" class="go btn gototwo" style="z-index:9999;"></a>
+      </div>
+    </div>
+
+
+<script src="js/respond.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script src="js/respond.min.js"></script>
+<script src="js/sweet-alert.min.js"></script>
+
+<!-- <script>
+
+$("#audio_btn").click(function(){    
+    var music = document.getElementById("media");     
+    if(music.paused){    
+        music.play();
+		$("#yinfu").addClass('rotate');
+		$("#audio_btn").addClass('play_yinfu');
+        $("#music_btn").attr("src","play.gif");    
+    }else{    
+        music.pause();  
+		$("#yinfu").removeClass('rotate');
+		$("#audio_btn").removeClass('play_yinfu');  
+        $("#music_btn").attr("src","pause.gif");    
+    }    
+});    
+</script> -->
+</body>
+</html>

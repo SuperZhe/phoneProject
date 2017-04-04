@@ -1,0 +1,97 @@
+.safe-set {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+}
+.safe-set .ss-body {
+  width: 800px;
+  height: 330px;
+  padding: 25px 32px;
+}
+.safe-set .ss-body .ss-head {
+  width: 100%;
+  height: 37px;
+  border-bottom: 1px solid #d9d9de;
+  padding-bottom: 3px;
+}
+.safe-set .ss-body .ss-head span {
+  display: inline-block;
+  line-height: 37px;
+  margin-right: 15px;
+  color: #838383;
+  cursor: pointer;
+}
+.safe-set .ss-body .ss-head span:hover {
+  border-bottom: 3px solid #43aefc;
+}
+.safe-set .ss-body .ss-head span.showActive {
+  border-bottom: 3px solid #43aefc;
+}
+.safe-set .ss-body .ss-container {
+  width: 100%;
+  height: 330px;
+}
+.safe-set .ss-body .ss-container .ss-box1 {
+  margin: 32px 0px 10px 18px;
+}
+.safe-set .ss-body .ss-container .ss-box1 input {
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #dcdce0;
+  width: 200px;
+  margin-left: 10px;
+}
+.safe-set .ss-body .ss-container .ss-box1 .ss-span1 {
+  font-size: 14px;
+  color: #dcdce0;
+  display: inline-block;
+  margin-left: 15px;
+}
+.safe-set .ss-body .ss-container .ss-box2 {
+  margin: 32px 0px 10px 34px;
+}
+.safe-set .ss-body .ss-container .ss-box3 {
+  margin: 32px 0px 10px 3px;
+}
+.safe-set .ss-body .ss-container .ss-box3 span:nth-child(2) {
+  font-weight: bold;
+  margin-left: 10px;
+}
+.safe-set .ss-body .ss-container .ss-box4 {
+  margin: 32px 0px 10px 35px;
+}
+.safe-set .ss-body .ss-container .ss-box4 input {
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #dcdce0;
+  width: 78px;
+  margin-left: 10px;
+  padding-left: 5px;
+}
+.safe-set .ss-body .ss-container .ss-box4 .ss-span2 {
+  width: 140px;
+  height: 32px;
+  display: inline-block;
+  border: 1px solid #dcdce0;
+  border-radius: 5px;
+  text-align: center;
+  line-height: 32px;
+  background-color: #f2f2f2;
+}
+.safe-set .ss-body .ss-container .ss-result1 {
+  padding: 0px 0px 10px 96px;
+  width: 100%;
+  height: 20px;
+}
+.safe-set .ss-body .ss-container .ss-span3 {
+  width: 143px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #ff4200;
+  display: block;
+  margin-left: 93px;
+  cursor: pointer;
+}

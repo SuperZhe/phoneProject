@@ -1,0 +1,322 @@
+.choice-container{
+	width: 1110px;
+	margin: 0 auto;
+	padding-top: 50px;
+	text-align: center;
+	.title-container{
+		margin-bottom: 30px;
+        font-size: 36px;
+        line-height: 36px;
+        color: #e9816d;
+        .line{
+        	position: relative;
+            display: inline-block;
+            height: 2px;
+            padding: 0px;
+            overflow: hidden;
+            background-color: #d5d5d5;
+            top: -12px;
+            width: 50px;
+            margin: 0px 20px 0px 20px;
+        }
+        .title{color: #2f2f2f;}
+	}
+	.share-container{
+		margin-bottom: 40px;
+		.item{
+			margin-left: 5px;
+            margin-right: 5px;
+            cursor: pointer;
+            color: #555555;
+            .iconfont{
+            	position: relative;
+                top: 1px;
+                margin-left: 5px;
+                margin-right: 5px;
+                font-size: 20px;
+                line-height: 20px;
+            }
+		}
+		.more{
+			position: relative;
+			.icon-jaintou{
+				&.active{
+					visibility: hidden;
+				}
+			}
+			.dropdown-menu{
+				display: none;
+				margin-top: 5px;
+				border-color: #d9d9d9;
+				position: absolute;
+                top: 100%;
+                left: 0;
+                z-index: 1000;
+                float: left;
+                min-width: 160px;
+                padding: 5px 0;
+                margin: 2px 0 0;
+                background-color: #fff;
+                border-radius: 6px;
+                box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+                background-clip: padding-box;
+                border: 1px solid rgba(0,0,0,0.2);
+                li{
+                	font-size: 14px;
+                    text-align: left;
+                    line-height: 20px;
+                    &:hover{
+                    	background: #000;
+                    }
+                    a{
+                    	color:#b1b1b1;
+                    	display: block;
+                        padding: 3px 20px;
+                        clear: both;
+                        font-weight: normal;
+                        line-height: 20px;
+                        white-space: nowrap;
+                        img{
+                        	width: 16px;
+                            height: 16px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+			}
+		}
+	}
+	.swiper-wrapper{
+		text-align: justify;
+		.swiper-slide{
+			width: 33.33%;
+			position: relative;
+            display: inline-block;
+            height: 660px;
+            margin-left: -2px;
+            margin-right: -2px;
+            margin-bottom: 30px;
+            padding-left: 5px;
+            padding-right: 5px;
+            box-sizing: border-box;
+            text-align: center;
+            font-size: 18px;
+            transition: all 200ms ease;
+            .pan{
+                margin-left: auto;
+                margin-right: auto;
+                box-sizing: border-box;
+                background-color: white;
+                box-shadow: 5px 5px 10px #d5d5d5;
+                cursor: pointer;
+                position: relative;
+                display: block;
+                width: 100%;
+                height: 100%;
+                background-size: 100%;
+                background-repeat: no-repeat;
+                transition: all 200ms ease;
+                .article{
+                	position: absolute;
+                    display: block;
+                    top: 50%;
+                    left: 0px;
+                    width: 100%;
+                    margin-top: -40px;
+                    .article-title{
+                    	display: block;
+                        width: 100%;
+                        height: 25px;
+                        margin-bottom: 15px;
+                        font-size: 14px;
+                        font-weight: bold;
+                        line-height: 25px;
+                        text-align: center;
+                        color: #2f2f2f;
+                    }
+                    .line{
+                    	width: 38px;  
+                        margin-bottom: 15px;
+                        position: relative;
+                        display: inline-block;
+                        height: 2px;
+                        padding: 0px;
+                        overflow: hidden;
+                        background-color: #d5d5d5;
+                    }
+                    .content{
+                    	    margin-bottom: 15px;
+                            font-size: 12px;
+                            line-height: 1.6;
+                            color: #2f2f2f;                   
+                    }                    
+                }
+                .author{
+                    	position: absolute;
+                        display: block;
+                        bottom: 50px;
+                        left: 0px;
+                        width: 100%;
+                        height: 35px;
+                        line-height: 35px;
+                        vertical-align: middle;
+                        .icon{
+                        	width: 35px;
+                            height: 35px;
+                            border-radius: 50%;
+                        }
+                        .name{
+                        	margin-left: 15px;
+                            font-size: 15px;
+                            color: #717171;
+                        }
+                    }
+                .mask{
+                	position: absolute;
+                    display: block;
+                    top: 0px;
+                    left: 0px;
+                    width: 100%;
+                    height: 100%;
+                    cursor: pointer;
+                    z-index: 100;
+                    background-color: rgba(255,255,255,0.8);
+                    opacity: 0;
+                    transition: opacity 200ms ease-in;
+                    .btn{
+                    	position: absolute;
+                        display: none;
+                        box-sizing: border-box;
+                        top: 50%;
+                        left: 50%;
+                        width: 106px;
+                        height: 44px;
+                        margin-left: -53px;
+                        margin-top: -22px;
+                        padding: 0px;
+                        background-color: #e9816d;
+                        border-color: transparent;
+                        box-shadow: inset 0px 0px 1px #f8d9d4;
+                        font-size: 14px;
+                        line-height: 44px;
+                        color: white;
+                        border-radius: 4px;
+                        text-align: center;
+                        vertical-align: middle;
+                        cursor: pointer;
+                    }
+                }
+            }  
+		}
+		.page1{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month1.jpg);
+			}
+		}
+		.page2{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month2.jpg);
+			}
+		}
+		.page3{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month3.jpg);
+			}
+		}
+		.page4{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month4.jpg);
+			}
+		}
+		.page5{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month5.jpg);
+			}
+		}
+		.page6{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month6.jpg);
+			}
+		}
+		.page7{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month7.jpg);
+			}
+		}
+		.page8{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month8.jpg);
+			}
+		}
+		.page9{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month9.jpg);
+			}
+		}
+		.page10{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month10.jpg);
+			}
+		}
+		.page11{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month11.jpg);
+			}
+		}
+		.page12{
+			.pan{
+				background-image: url(https://nick2046.github.io/jianshu/app/img/month12.jpg);
+			}
+		}
+	}
+}
+.modal{
+	display: none;
+	position: fixed;
+	top: 10%;
+	left: 50%;
+	border-radius: 6px;
+	z-index: 1050;
+	width: 360px;
+	margin-left: -180px;
+	background-color: #fff;
+	border: 1px solid #d9d9d9;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.3);
+    .modal-header{
+    	border-bottom: none;
+    	padding:20px;
+    	padding-bottom: 0px;
+    	button{
+    		margin-top: -4px;
+    		padding: 0;
+            cursor: pointer;
+            background: transparent;
+            border: 0;
+            float: right;
+            font-size: 20px;
+            font-weight: bold;
+            line-height: 20px;
+            color: black;
+            text-shadow: 0 1px 0 white;
+            opacity: 0.2;
+    	}
+    }
+    .modal-body{
+    	text-align: center;
+        padding-top: 0;
+        padding: 30px;
+        h5{
+        	font-size: 13px;
+        }
+        .code{
+        	width: 170px;
+        	height: 170px;
+        	margin: 0 auto;
+        	margin-top: 10px;
+        }
+        
+    }
+}

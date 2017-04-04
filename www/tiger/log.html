@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/index2.css">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+    <link rel="stylesheet" type="text/css" href="css/log.css">
+    <link rel='icon' href='view/images/index/pci.ico.jpg' type=‘image/x-ico’ />
+</head>
+
+<body>
+    <!-- nav  start -->
+    <div class="nav">
+        <div class="nav-box clear">
+            <img src="view/images/index/logo.white.png" alt="">
+            <div class="nav-txt">
+                <a href="index.html">首页</a>
+                <a href="#">股票学院</a>
+                <a href="download.html">下载</a>
+                <a href="help.html">帮助</a>
+                <a href="about.html">关于</a>
+            </div>
+            <div class="nav-right clear">
+                <a href="log.html" class="c1">个人中心</a>
+                <a class="nav-two" href="open-account.html">马上开户</a>
+                <a class="nav-three" href="#">Language <br> 简体中文
+                <span class="sanjiao"></span>
+                  <span class="others">
+                   <span href="#">繁体中文</span>
+                   <span href="#">English</span>
+                 </span>
+               </a>
+            </div>
+        </div>
+    </div>
+    <!-- nav end -->
+    <div class="container">
+        <div class="main">
+            <form class="easy-form login-form">
+                <h1 class="logo">
+                    <a href="#">
+                        <img src="view/images/log/logo.black.png" alt="">
+                    </a>
+                </h1>
+                <div class="form-wrap clear">
+                    <div class="input-wrap">
+                        <div class="form-error e1">
+                            <p>请填写有效的手机号</p>
+                            <span class="arrow-tip-dowm"></span>
+                        </div>
+                        <input id="inp" type="text" name="phone" class="input-text i1" placeholder="手机号码">
+                    </div>
+                </div>
+                <div class="form-wrap clear">
+                    <div class="input-wrap">
+                        <div class="form-error e2">
+                            <p>请输入密码</p>
+                            <span class="arrow-tip-dowm"></span>
+                        </div>
+                        <input id="pwd" type="password" name="password" class="input-text i2" placeholder="请输入密码">
+                    </div>
+                    <div class="meta">
+                        <a href="#">忘记密码?</a>
+                    </div>
+                    <div class="form-wrap submit-wrap">
+                        <button id="log-btn" class="btn btn-regular" type="button">
+                            <a href="index.html">登&nbsp;&nbsp;录</a>
+                        </button>
+                    </div>
+                    <div class="form-signup submit-wrap">
+                        <div class="go-signup">
+                            还没有账户？
+                            <a href="open-account.html">立即开户</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- footer start -->
+    <div class="footer">
+        <div class="main clear">
+            <div class="left">
+                <nav>
+                    <a href=""><b>关于我们</b></a>
+                    <a href=""><b>联系我们</b></a>
+                    <a href=""><b>隐私声明</b></a>
+                </nav>
+                <p>
+                    所有投资都存在风险。任何一支证券或金融产品的历史数据都不能保证其未来的表现及回报。虽然投资多样化可以帮助分散风险，但是并不能在市场低迷时确保您获益或防止您损失。投资证券或金融产品总会存在潜在的亏损可能。投资者在进行投资前需考虑自身的投资目标及风险承受能力。
+                </p>
+                <p>
+                    进行交易之前，客户敬请阅读在我们警告和声明网页上的相关风险透露声明。
+                </p>
+                <p class="copyright">
+                    © 2016 老虎证券 Tiger Holdings Group Limited
+                </p>
+            </div>
+            <div class="right">
+                <div class="telphone">
+                    <p>
+                        客服电话 交易日 09:30 - 次日 05:00
+                    </p>
+                    <a href="#">
+                        <strong>400-603-7555</strong>
+                    </a>
+                    <a href="#">
+                        <strong>010-84055994</strong>
+                    </a>
+                </div>
+                <div class="kefu">
+                    <a href="#">
+                        <span></span> 点击联系中文客服
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer end -->
+    <script src="./bower_components/jquery/dist/jquery.js"></script>
+    <script src="./bower_components/seajs/dist/sea.js"></script>
+    <script src="./bower_components/underscore/underscore.js"></script>
+    <script src="js/log.js"></script>
+    <!--  <script src="js/jquery.sliphover.js"></script> -->
+    <script>
+    seajs.config({
+        base: './'
+    });
+    seajs.use('js/index.js', function(a) {
+        a.initPage()
+    });
+    </script>
+</body>
+
+</html>

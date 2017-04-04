@@ -1,0 +1,17 @@
+﻿{
+  "name": "yingu",
+  "version": "2.0.0",
+  "description": "jquery",
+  "dateVersion": "20160815",
+  "devDependencies": {
+    "gulp": "^3.8.10",
+    "gulp-connect": "^5.0.0"
+  },
+  "scripts": {
+
+  },
+  "dependencies": {
+  },
+  "repository": "git://github.com/brucecham/crm2",
+  "license": "MIT"
+}

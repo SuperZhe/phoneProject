@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<script type='text/javascript' src="js/jquery-1.8.3.min.js"></script>
+<style>
+span.shoufei .b1 ,span.shoufei .b2{
+	background:url(mian.png) no-repeat;
+	  display: inline-block;
+    height: 18px;
+    vertical-align: middle;
+    width: 18px;
+	padding-left:5px;
+}
+span.shoufei .b2 {
+	background:url(mianfei.png) no-repeat;
+}
+.zhan {
+	color:#666;
+	font-size:12px;
+}
+.zhan i {
+	background:url(module_z_9b11ea2.png) no-repeat -23px -129px;
+	box-orient: vertical;
+	-moz-box-orient: vertical;
+	-webkit-box-orient: vertical;
+	-ms-box-orient: vertical;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 18px;
+    vertical-align: middle;
+    width: 18px;
+	padding-left:5px;
+
+}
+.zhan i.i2 {
+	background-position:0px -129px;
+}
+</style>
+
+
+</head>
+
+<body>
+<div style="width:250px;">
+<img src="1360037826_67.jpg" style="width:250px;"/>
+<div align="right"><span class="shoufe1 dis"><a class="zhan" href="#"><i></i><span>0</span></a></span><span class="shoufe1 dis"><a class="zhan" href="#"><i class="i2"></i><span>0</span></a></span></div>
+</div>
+</body>
+<script type="text/javascript">
+  $(document).ready(function (e) {
+     $('a.zhan').click(function () {
+
+         var left = parseInt($(this).offset().left) + 10,
+             top = parseInt($(this).offset().top) - 10,
+             obj = $(this);
+         $(this).append('<div class="zhans"><b>+1<\/b></\div>');
+         $('.zhans').css({
+             'position': 'absolute',
+             'z-index': '1',
+             'color': '#C30',
+             'left': left + 'px',
+             'top': top + 'px'
+         }).animate({
+             top: top - 10,
+             left: left + 10
+         }, 'slow', function () {
+             $(this).fadeIn('fast').remove();
+             var Num = parseInt(obj.find('span').text());
+             Num++;
+             obj.find('span').text(Num);
+
+         });
+         return false;
+     });
+ });
+   
+/*$.ajax({
+  type:"get",
+  url:"xxxxxxxxxxxxxx.php",
+  data:{
+    action:"dianzan",   //php辨识ajax的标志(这一条不一定要加,看PHP文件结构
+    uid:"xxxxxxxxxxx",   //谁发起了点赞,
+    pid:"xxxxxxxxx",     //什么元素被点赞
+  },
+  success:function(msg){
+    //接收PHP返回的信息,是否点赞成功,如果成功,前台JS进行特效转换来提醒用户点赞成功  如果未成功则提示原因等等
+  }
+});*/
+
+ </script>
+</html>

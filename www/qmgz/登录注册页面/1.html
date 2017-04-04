@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>注册</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/1.css">
+	<script src="js/angular.js"></script>
+</head>
+<body ng-app="myapp" ng-controller="cont1">
+      <h3>注册</h3>
+     <form action="" ng-model="myForm" name="myForm" novalidate>
+        <input type="text" name="phone" placeholder="请输入您的手机号码" ng-model="phone" required ng-pattern="/^(1[^012][0-9]{9})$/">
+        <p ng-show="myForm.phone.$error.pattern && myForm.phone.$dirty">您输入的号码有误,请检查!</p>
+
+        <input class="authCode" type="text" name="" placeholder="输入验证码">
+        <span class="authCode-span">点击获取验证码</span>
+
+        <input type="password" name="password" ng-model="password"  placeholder="输入密码,不得少于6位" required ng-minlength="6">
+        <p ng-show="myForm.password.$error.minlength && myForm.password.$dirty">请输入大于6位的密码!</p>
+        
+        <button type="submit" ng-style="{background: myForm.$valid?'#0087E3':'#bbb'}">注册</button>
+        <p ng-show="myForm.$valid==false && myForm.$dirty==true">填写信息有误,请确认后再提交</p>
+        
+
+     </form>
+	<script>
+		var app = angular.module('myapp',[]);
+		app.controller("cont1",["$scope",function(){
+
+		}])
+	</script>
+</body>
+</html>

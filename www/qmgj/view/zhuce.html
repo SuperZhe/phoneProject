@@ -1,0 +1,56 @@
+<div class="box">
+	<form novalidate name="myForm">
+		<p class="p1">注册</p>
+		<!-- 1 -->
+		<input class="input1" type="text" name="username" ng-model="username"
+		ng-minlength="11" required ng-pattern='/^(1[^012][0-9]{9})$/' placeholder="请输入您的手机号码">
+		<div class="result1">
+	    <div style="color:red" ng-show="myForm.username.$dirty && myForm.username.$error.required">
+	    用户名必填 </div>
+	   <div style="color:red" ng-show="myForm.username.$dirty && myForm.username.$error.minlength">
+	    手机号长度不正确</div>			
+       <div style="color:red" ng-show=" myForm.username.$dirty && myForm.username.$error.pattern">
+	    手机号格式不正确</div>
+	    </div>
+	    <!-- 2 -->
+		<input class="input2"  value="" type="text" name="code" ng-model='code' ng-minlength="4" required placeholder="输入验证码">
+        
+		<button class="button1" type="button">已发送，60秒后重发</button>
+		<div class="result1">
+		<div style="color:red" ng-show="myForm.code.$dirty && myForm.code.$error.required">
+	    验证码必填 </div>
+		<div style="color:red" ng-show=" myForm.code.$dirty && myForm.code.$error.minlength">
+	    验证码错误，请重新输入</div>
+	    </div>
+		
+
+		<!-- 3 -->
+		<input  class="input1" type="text" name="password" value="" ng-model="password"
+	    ng-minlength="6" required placeholder="请输入密码,不小于6位">
+	    <div class="result1">
+		<div style="color:red" ng-show="myForm.password.$dirty && myForm.password.$error.required">
+	    密码必填</div>
+	    <div style="color:red" ng-show="myForm.password.$dirty && myForm.password.$error.minlength">
+	    密码长度大于8</div>
+	    </div>
+		
+        <button class="button2" type="button">注册</button>
+        <p class="p2-2"><input type="checkbox">
+        同意《全民创造用户协议》</p>
+        <div class="zhuce-line">
+        	<span class="line"></span>
+        <span class="p3">第三方登录</span>
+        <span class="line2"></span>
+        </div>
+        
+        <div class="login-show">
+        	<img src="images/qq.png" alt="">
+        	<img src="images/微信.png" alt="">
+        	<img src="images/微博.png" alt="">
+        </div> 
+         <div class="show1">
+         	 已有账户？<span><a href="#" style="color:#00a0ff;">登录</a></span>
+         </div>
+        
+    </form>
+	</div>

@@ -1,0 +1,131 @@
+input:-webkit-autofill {
+  background-color: #FAFFBD;
+  background-image: none;
+  color: #000;
+}
+input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.clear:after {
+  content: "";
+  height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+}
+.clear {
+  --ms-zoom: 1;
+}
+body {
+  background-color: #f5f5f5;
+}
+.login-box {
+  width: 400px;
+  height: 527px;
+  background: #fff;
+  margin: 80px auto;
+  border: 1px solid #dbdbe0;
+  position: relative;
+  border-radius: 10px;
+}
+.p1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 35px 26px;
+}
+.input1 {
+  padding-left: 10px;
+  line-height: 40px;
+  border-radius: 5px;
+  margin: 0 22px 0px;
+  color: #000;
+  width: 357px;
+  border: 1px solid #d3d3d3;
+  outline: none;
+}
+.input1:focus {
+  border: 1px solid #51abf8;
+}
+.result1 {
+  margin: 0 20px 20px;
+  width: 100%;
+  height: 25px;
+}
+.input2 {
+  padding-left: 10px;
+  line-height: 40px;
+  border-radius: 5px;
+  color: #000;
+  width: 221px;
+  margin: 0 5px 15px 22px;
+  border: 1px solid #d3d3d3;
+  outline: none;
+}
+.input2:focus {
+  border: 1px solid #51abf8;
+}
+.button1 {
+  line-height: 40px;
+  border-radius: 5px;
+  border: 1px solid #d3d3d3;
+  outline: none;
+  width: 125px;
+  background: #f7fafa;
+  color: #838383;
+}
+.button2 {
+  background: #2bde73;
+  line-height: 44px;
+  width: 360px;
+  border-radius: 7px;
+  margin: 0 5px 10px 22px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 17px;
+  height: 44px;
+}
+.login-p2-2 {
+  color: #838383;
+  margin: 0 5px 13px 22px;
+}
+.line,
+.line2 {
+  vertical-align: middle;
+  height: 1px;
+  background-color: #d9d9de;
+  width: 140px;
+  display: inline-block;
+}
+.zhuce-line {
+  margin-top: 10px;
+}
+.line {
+  margin-left: 6px;
+}
+.login-show {
+  margin: 15px auto;
+  text-align: center;
+}
+.login-show img {
+  padding-right: 14px;
+}
+.show1 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  line-height: 58px;
+  height: 58px;
+  background: #f7f7f8;
+  text-align: center;
+  width: 100%;
+  border-top: 1px solid #dbdbe0;
+  color: #a7a7a7;
+  border-radius: 10px;
+}
+.show1 span {
+  color: #00a0ff;
+}

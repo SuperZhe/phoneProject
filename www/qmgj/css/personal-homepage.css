@@ -1,0 +1,258 @@
+.personal-homepage {
+  width: 100%;
+  height: 1225px;
+}
+.personal-homepage .ph-head2 {
+  width: 100%;
+  height: 39px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #d9d9de;
+}
+.personal-homepage .ph-head2 .ph-span5 {
+  display: inline-block;
+  width: 5px;
+  height: 25px;
+  background-color: #43aefc;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.personal-homepage .ph-head {
+  width: 100%;
+  height: 245px;
+  background-color: #effaff;
+  border-bottom: 1px solid #d9d9de;
+}
+.personal-homepage .ph-head .ph-head1 {
+  width: 916px;
+  height: 190px;
+  padding: 20px 218px;
+}
+.personal-homepage .ph-head .ph-head1 .ph-left {
+  width: 137px;
+  height: 100%;
+  float: left;
+}
+.personal-homepage .ph-head .ph-head1 .ph-left img:nth-child(2) {
+  margin: 20px 21px 5px;
+}
+.personal-homepage .ph-head .ph-head1 .ph-right {
+  float: left;
+  width: 710px;
+  height: 134px;
+  margin: 20px 10px 20px 50px;
+}
+.personal-homepage .ph-head .ph-head1 .ph-right .ph-span1 {
+  font-size: 18px;
+  font-weight: bolder;
+}
+.personal-homepage .ph-head .ph-head1 .ph-right .ph-span2 {
+  color: #828282;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-right: 480px;
+}
+.personal-homepage .ph-head .ph-head1 .ph-right .ph-span3 {
+  width: 100%;
+  height: 1px;
+  background-color: #d9d9de;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.personal-homepage .ph-head .ph-head1 .ph-right .ph-span4 {
+  color: #a3a7a9;
+  margin: 25px 0;
+  display: inline-block;
+}
+.personal-homepage .ph-head .ph-head1 .ph-right .ph-span4 .ph-di {
+  position: relative;
+  width: 200px;
+  height: 10px;
+  background-color: #d9d9de;
+  display: inline-block;
+  margin: 0 10px;
+}
+.personal-homepage .ph-head .ph-head1 .ph-right .ph-span4 .ph-mian {
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 10px;
+  width: 135px;
+  background-color: #ff4400;
+}
+.personal-homepage .ph-head .ph-head1 .ph-right .ph-p1 {
+  color: #a3a7a9;
+}
+.personal-homepage .ph-body {
+  height: 910px;
+  width: 1040px;
+  padding: 15px 155px 60px;
+}
+.personal-homepage .ph-body .ph-left {
+  width: 162px;
+  height: 100%;
+  background-color: #fff;
+  margin-right: 15px;
+  float: left;
+}
+.personal-homepage .ph-body .ph-left .ph-txt {
+  width: 80px;
+  height: 250px;
+  padding: 30px 41px;
+}
+.personal-homepage .ph-body .ph-left .ph-txt a {
+  border-bottom: 1px dotted #dddde1;
+  text-align: center;
+  padding-bottom: 10px;
+  display: block;
+  margin-bottom: 10px;
+}
+.personal-homepage .ph-body .ph-left .ph-txt a.showActive1 {
+  color: #ff4400;
+}
+.personal-homepage .ph-body .ph-right {
+  width: 863px;
+  height: 100%;
+  float: left;
+}
+.personal-homepage .ph-body .ph-right .top {
+  width: 100%;
+  height: 395px;
+  background-color: #fff;
+  margin-bottom: 16px;
+}
+.personal-homepage .ph-body .ph-right .top .ph-txt {
+  width: 800px;
+  height: 320px;
+  padding: 35px;
+}
+.personal-homepage .ph-body .ph-right .top .ph-body1 {
+  width: 100%;
+  height: 250px;
+}
+.personal-homepage .ph-body .ph-right .top .ph-body1 .ph-box {
+  width: 377px;
+  height: 113px;
+  border: 1px solid #dcdce0;
+  float: left;
+  margin-right: 21px;
+  margin-bottom: 25px;
+}
+.personal-homepage .ph-body .ph-right .top .ph-body1 .ph-box .box1-1 {
+  float: left;
+  width: 189px;
+  height: 81px;
+  padding: 22px 29px 10px 15px;
+}
+.personal-homepage .ph-body .ph-right .top .ph-body1 .ph-box .box1-1 .ph-p {
+  font-size: 12px;
+  color: #828282;
+  margin: 0px 7px 15px;
+}
+.personal-homepage .ph-body .ph-right .top .ph-body1 .ph-box .box1-1 .ph-di1 {
+  width: 186px;
+  height: 5px;
+  position: relative;
+  display: block;
+  background-color: #d9d9de;
+  margin-bottom: 14px;
+}
+.personal-homepage .ph-body .ph-right .top .ph-body1 .ph-box .box1-1 .ph-di1 .ph-mian1 {
+  width: 76px;
+  height: 5px;
+  position: absolute;
+  display: block;
+  background-color: #ff4400;
+  left: 0;
+  top: 0;
+  margin-bottom: 14px;
+}
+.personal-homepage .ph-body .ph-right .top .ph-body1 .ph-box .box1-1 .ph-p2 {
+  color: #969696;
+  display: inline-block;
+  margin-top: 7px;
+}
+.personal-homepage .ph-body .ph-right .top .ph-body1 .ph-box .box1-1 .ph-span7 {
+  color: #000;
+  margin-left: 6px;
+  font-weight: bold;
+  font-size: 14px;
+  display: inline-block;
+}
+.personal-homepage .ph-body .ph-right .bottom {
+  width: 100%;
+  height: 499px;
+  background-color: #fff;
+  padding: 30px 38px;
+  box-sizing: border-box;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 {
+  width: 790px;
+  height: 355px;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 div:last-child {
+  margin-right: 0;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 {
+  width: 246px;
+  height: 100%;
+  border: 1px solid #dddde2;
+  border-radius: 5px;
+  float: left;
+  margin-right: 23px;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 img {
+  width: 100%;
+  height: 180px;
+  border-radius: 5px;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt {
+  width: 228px;
+  height: 139px;
+  margin: 16px 9px;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-span8 {
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin: 15px 0px 8px;
+  font-size: 12px;
+  color: #828587;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-jindu1,
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-jindu2,
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-jindu3 {
+  margin-right: 20px;
+  text-align: center;
+  font-size: 13px;
+  margin-top: 5px;
+  float: left;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-jindu1 p:first-child,
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-jindu2 p:first-child,
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-jindu3 p:first-child {
+  font-weight: bold;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-jindu1 p:last-child,
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-jindu2 p:last-child,
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-jindu3 p:last-child {
+  color: #828587;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-di2 {
+  position: relative;
+  width: 226px;
+  height: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #d9d9de;
+}
+.personal-homepage .ph-body .ph-right .bottom .ph-box2 .ph-show1 .ph-txt .ph-mian2 {
+  position: absolute;
+  width: 117px;
+  height: 5px;
+  border-radius: 5px;
+  display: inline-block;
+  background-color: #ff4400;
+}

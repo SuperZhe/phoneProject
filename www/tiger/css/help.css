@@ -1,0 +1,108 @@
+.container {
+  padding: 60px 0 135px;
+  background-color: #f9f9f9;
+}
+.container .main {
+  width: 1072px;
+  margin: 0 auto;
+}
+.container .main h2 {
+  font-size: 27px;
+  font-weight: 700;
+  padding: 32px 0 5px;
+  text-align: center;
+}
+.container .main .help {
+  text-align: center;
+}
+.container .main .help a {
+  display: block;
+  float: left;
+  width: 33%;
+  padding: 0 0 30px;
+  text-decoration: none;
+  color: #000;
+}
+.container .main .help a span {
+  display: block;
+  overflow: hidden;
+  width: 120px;
+  height: 100px;
+  margin: 20px auto;
+  background-image: url(../view/images/help/about-icon.sprite.e743e353.png);
+  background-repeat: no-repeat;
+}
+.container .main .help a .img {
+  background-position: 0 -1050px;
+}
+.container .main .help a .img:hover {
+  background-position: 0 -105px;
+}
+.container .main .help a .img1 {
+  background-position: 0 -1155px;
+}
+.container .main .help a .img1:hover {
+  background-position: 0 -525px;
+}
+.container .main .help a .img2 {
+  background-position: 0 -630px;
+}
+.container .main .help a .img2:hover {
+  background-position: 0 0px;
+}
+.container .main .help a .img3 {
+  background-position: 0 -210px;
+}
+.container .main .help a .img3:hover {
+  background-position: 0 -735px;
+}
+.container .main .help a .img4 {
+  background-position: 0 -315px;
+}
+.container .main .help a .img4:hover {
+  background-position: 0 -840px;
+}
+.container .main .help a .img5 {
+  background-position: 0 -420px;
+}
+.container .main .help a .img5:hover {
+  background-position: 0 -945px;
+}
+.container .main .helpfaq {
+  padding: 30px 0;
+}
+.container .main .helpfaq h3 {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: left;
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 13px;
+}
+.container .main .helpfaq h4 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 20px 0 0;
+}
+.container .main .helpfaq h5 {
+  font-size: 18px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.container .main .helpfaq h5 span {
+  display: inline-block;
+  zoom: 1;
+  width: 10px;
+  height: 10px;
+  margin-right: 5px;
+  background: url(../view/images/help/icon.png) no-repeat;
+}
+.container .main .helpfaq h5 .icon1 {
+  background: url(../view/images/help/icon.png) no-repeat -10px 2px;
+}
+.container .main .helpfaq p {
+  display: none;
+  margin: 16px 4px 20px;
+  padding-left: 15px;
+  color: #a3a3a3;
+}

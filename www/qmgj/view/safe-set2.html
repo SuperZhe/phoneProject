@@ -1,0 +1,21 @@
+<div class="ss-2">
+	<span class="ss2-span1">身份证认证由NCIIC提供接口</span>
+	<div class="ss-box1 ss-box2">
+	 		<span>姓名</span>
+	 		<input type="text" name="">
+	 </div>	
+	 <div class="ss2-box2">
+	       <form novalidate name="myForm">
+	 		<span>身份证号</span>
+	 		<input name="code" ng-model='code'  required  type="text" name="" ng-pattern="/^[1-9]\d{5}[1-9]\d{3}((0\d)|(1[0-2]))(([0|1|2]\d)|3[0-1])\d{3}([0-9]|X)$/">
+	 		</form>
+	 	</div>	
+	 	<div class="ss-result2">
+		<div style="color:red" ng-show="myForm.code.$dirty && myForm.code.$error.required">
+	    身份证号必填 </div>
+		<div style="color:red" ng-show=" myForm.code.$dirty && myForm.code.$error.pattern">
+	    身份证号码错误，请重新输入</div>
+	    </div>
+	 <span class="ss2-span3">保存</span>
+	 	
+</div>

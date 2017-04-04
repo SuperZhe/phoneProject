@@ -1,0 +1,29 @@
+	 	<div class="ss-box1">
+	 		<span>当前密码</span>
+	 		<input type="text" name="">
+	 	</div>
+	 	<div class="ss-box1 ss-box2">
+	 		<span>新密码</span>
+	 		<input type="text" name="">
+	 		<span class="ss-span1">(密码不小6位)</span>
+	 	</div>
+	 	<div class="ss-box3">
+	 		<span>已绑定手机</span>
+	 		<span>159****1103</span>
+	 	</div>
+	 	<div class="ss-box4" >
+	 	<form novalidate name="myForm">
+	 		<span>验证码</span>
+	 		<input type="text" placeholder="输入验证码" name="code" ng-model='code' ng-minlength="4" required >
+	 		<span class="ss-span2">免费获取验证码</span>
+	 		</form>
+	 	</div>
+        <div class="ss-result1">
+		<div style="color:red" ng-show="myForm.code.$dirty && myForm.code.$error.required">
+	    验证码必填 </div>
+		<div style="color:red" ng-show=" myForm.code.$dirty && myForm.code.$error.minlength">
+	    验证码错误，请重新输入</div>
+	    </div>
+	    
+	 	<span class="ss-span3">保存</span>
+	 </div>

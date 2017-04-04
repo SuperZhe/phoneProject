@@ -1,0 +1,101 @@
+.pay {
+  width: 100%;
+  height: 834px;
+  background-color: #fff;
+}
+.pay .p-body {
+  width: 1040px;
+  height: 700px;
+  padding: 60px 167px;
+}
+.pay .p-body .p-head {
+  width: 100%;
+  height: 54px;
+  margin-bottom: 10px;
+}
+.pay .p-body .p-head .p-span1 {
+  width: 211px;
+  height: 54px;
+  float: left;
+}
+.pay .p-body .p-head .p-span2 {
+  width: 500px;
+  float: right;
+}
+.pay .p-body .p-span3,
+.pay .p-body .p-span4 {
+  color: #858585;
+  font-size: 14px;
+}
+.pay .p-body .p-span3 {
+  margin-left: 7px;
+}
+.pay .p-body .p-span4 {
+  margin-left: 10px;
+}
+.pay .p-body .p-box {
+  width: 100%;
+  height: 30px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border-bottom: 1px solid #dcdce0;
+}
+.pay .p-body .p-box .p-span5,
+.pay .p-body .p-box .p-span6 {
+  float: left;
+  margin-right: 15px;
+  border: 1px solid #dcdce0;
+  width: 99px;
+  line-height: 30px;
+  text-align: center;
+  height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  border-bottom: 0px;
+}
+.pay .p-body .p-span7 {
+  float: right;
+  padding-right: 15px;
+}
+.pay .p-body .p-content {
+  width: 910px;
+  height: 330px;
+  margin: 50px auto;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #d9d9de;
+}
+.pay .p-body .p-div1,
+.pay .p-body .p-div2,
+.pay .p-body .p-div3,
+.pay .p-body .p-div4 {
+  margin-top: 30px;
+  width: 220px;
+  height: 300px;
+  float: left;
+}
+.pay .p-body .p-div1 .div1-1 {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin: 15px 0;
+}
+.pay .p-body .p-div1 .p-span1 {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  border: 1px solid #dbdbe0;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.pay .p-span {
+  display: block;
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  background-color: #ff4400;
+  margin-left: 70px;
+  cursor: pointer;
+}

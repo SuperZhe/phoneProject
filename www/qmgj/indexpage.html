@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html ng-app="qmgj">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/indexpage.min.css">
+
+	<script src="app/bower_components/angular/angular.js"></script>
+	<script src="app/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+</head>
+<body>
+   
+  	<header class="qm-g-header clear">
+		<ul class="clear">
+			<li class="li0 clear"><img src="images/txt1.png" alt=""></li>
+			<li class="li1"><a href="#">首页</a></li>
+			<li class="li2"><a href="#">节目专栏</a></li>
+			<li class="li3"><a href="#">圈子</a></li>
+			<li class="li4 clear"><img src="images/search.png" alt=""></li>
+			<li class="li5"><input type="text" name="" placeholder="输入您想要搜索的内容"></li>
+		</ul>	
+		<a ui-sref="zhuce" class="li6">注册</a>
+		<a ui-sref="login" class="li7">登录</a>
+	</header>	
+	
+	
+  <div ui-view></div>
+  
+  <footer class="qm-g-footer clear">
+        <div class="footer-left">
+        	<ul class="clear">
+        		<li><a href="#">关于全民创造&nbsp;&nbsp;</a></li>
+        		<li><a href="#">全民创造用户协议&nbsp;&nbsp;</a></li>
+        		<li><a href="#">全民创造风险提示&nbsp;&nbsp;</a></li>
+        		<li><a href="#">联系我们&nbsp;&nbsp;</a></li>
+        	</ul>
+        </div>
+        <div class="footer-right">
+        	 <img class="footer-right-img1" src="images/logo-footer.png" alt="">
+        	 <img class="footer-right-img2" src="images/footer-2015.png" alt="">
+        </div>
+  </footer>
+  <script src="config/indexpage.min.js"></script>	
+
+  
+</body>
+</html>

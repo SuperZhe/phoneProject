@@ -1,0 +1,147 @@
+.cxt-sign {
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 125px 0 50px;
+}
+.cxt-sign .sign-logo a img {
+  width: 252px;
+}
+.cxt-sign .sign-title {
+  margin: 70px auto 50px;
+}
+.cxt-sign .sign-title a,
+.cxt-sign .sign-title span {
+  font-size: 17.5px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #999999;
+  margin: 0 5px;
+}
+.cxt-sign .sign-title a:hover {
+  color: #555555;
+}
+.cxt-sign .sign-title a.active {
+  color: #555555;
+}
+.cxt-sign .sign-form {
+  width: 300px;
+  margin: 0px auto;
+}
+.cxt-sign .sign-form form .input_password,
+.cxt-sign .sign-form form .input_text {
+  margin: 15px 0;
+}
+.cxt-sign .sign-form form .input_password input,
+.cxt-sign .sign-form form .input_text input {
+  border: none;
+  border: 0;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 256px;
+  height: 44px;
+  padding: 4px 12px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  line-height: 44px;
+  border-radius: 0 5px 5px 0;
+}
+.cxt-sign .sign-form form .input_password input:focus,
+.cxt-sign .sign-form form .input_text input:focus {
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  border: 1px solid #4094c7;
+}
+.cxt-sign .sign-form form .input_password span,
+.cxt-sign .sign-form form .input_text span {
+  display: inline-block;
+  width: 44px;
+  height: 44px;
+  background: none;
+  font-family: -apple-system, "Helvetica Neue", Arial, "PingFang SC", "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  line-height: 44px;
+  border-radius: 5px 0 0 5px;
+  margin-right: -5px;
+}
+.cxt-sign .sign-form form .form_btn {
+  width: 300px;
+  height: 50px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 17.5px;
+}
+.cxt-sign .sign-form form .form_btn:hover {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  background-color: #5bc0de;
+}
+.cxt-sign .sign-form form .form_btn_out {
+  background-color: #5cb85c;
+}
+.cxt-sign .sign-form form .form_know {
+  text-align: left;
+  margin: 10px auto;
+}
+.cxt-sign .sign-form form .form_know p {
+  color: #999999;
+  font-size: 12px;
+}
+.cxt-sign .sign-form form .form_know p a {
+  color: #555555;
+}
+.cxt-sign .sign-form form .form_know p a:hover {
+  color: black;
+}
+.cxt-sign .sign-form .hr {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 20px auto;
+}
+.cxt-sign .sign-form .other_login {
+  width: 300px;
+}
+.cxt-sign .sign-form .other_login p {
+  color: #999999;
+  margin-bottom: 10px;
+}
+.cxt-sign .sign-form .other_login ul {
+  display: inline-block;
+  margin: 0 auto;
+}
+.cxt-sign .sign-form .other_login ul li {
+  margin: 2px;
+  float: left;
+  width: 44px;
+  height: 44px;
+  border-radius: 100%;
+  background-color: rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+.cxt-sign .sign-form .other_login ul li span {
+  font-size: 20px;
+  line-height: 44px;
+}
+.cxt-sign .sign-form .other_login ul li:hover span {
+  color: white;
+}
+.cxt-sign .sign-form .other_login ul li:nth-child(1):hover {
+  background-color: #f0ad4e;
+}
+.cxt-sign .sign-form .other_login ul li:nth-child(2):hover {
+  background-color: #428bca;
+}
+.cxt-sign .sign-form .other_login ul li:nth-child(3):hover {
+  background-color: #5cb85c;
+}
+.cxt-sign .sign-form .other_login ul li:nth-child(4):hover {
+  background-color: #d9534f;
+}
+.cxt-sign .sign-form .other_login ul li:nth-child(5):hover {
+  background-color: #5cb85c;
+}

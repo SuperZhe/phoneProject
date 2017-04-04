@@ -1,0 +1,51 @@
+
+
+*{margin: 0; padding: 0; font-size: 12px; line-height:20px; -webkit-tap-highlight-color:transparent; -webkit-appearance:none; color:#272636}
+a, img {-webkit-touch-callout: none; }
+body{-webkit-overflow-scrolling:touch;}
+body::-webkit-scrollbar{width: 0px;}
+textarea::-webkit-scrollbar{width: 0px;}
+div::-webkit-scrollbar{width:0px;}
+a:focus,input:focus,div:focus{-webkit-tap-highlight-color:rgba(0,0,0,0);}
+img{display: block; border: none 0; width: 100%;}
+input,textarea{border: 0 none; display: block;}
+input:-webkit-autofill {background-color: #FAFFBD;background-image: none;color: #000;}
+input:-webkit-autofill {-webkit-box-shadow: 0 0 0px 1000px #ffffff inset !important;} 
+// 去除input框浏览器默认的淡黄背景色
+::-webkit-search-cancel-button { -webkit-appearance: none; }
+::-webkit-search-results-button { -webkit-appearance: none; }
+.d-block{display: block;}
+.d-none{display: none;}
+.v-none{visibility: hidden;}
+/*文字和li重置*/
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+a{text-decoration: none;}
+li{list-style: none;}
+/*浮动和定位*/
+.fl{float: left;}
+.fr{float: right;}
+.clear:after {clear:both;visibility:hidden;content:"";display:block;}
+.rel{position: relative;}
+.abs{position: absolute;}
+
+@font-face {font-family: 'iconfont';
+    src: url('../font/iconfont.eot'); 
+    src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../font/iconfont.woff') format('woff'), 
+    url('../font/iconfont.ttf') format('truetype'), 
+    url('../font/iconfont.svg#iconfont') format('svg'); 
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.icon-refresh:before{content: "\e600"}
+.icon-honepage:before{content: "\e601"}
+.icon-car:before{content: "\e603"}
+.icon-shoppingplace:before{content: "\e605"}
+.icon-news:before{content: "\e609"}
+.icon-sort:before{content: "\e606"}
+.icon-user:before{content: "\e607"}
+.icon-search:before{content: "\e60a"}

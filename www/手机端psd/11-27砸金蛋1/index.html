@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<title>砸金蛋</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+<link href="css/base.css" type="text/css" rel="stylesheet" />
+<link href="css/demos.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet" type="text/css" href="css/carousel.css" />
+
+<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.carousel.min.js"></script>
+<script type="text/javascript" src="js/jquery.mousewheel.js"></script>
+<script src="js/common.js" type="text/javascript"></script>
+
+<script>
+	$(function(){
+		
+ 		$("#body").css("height",($(window).height()));
+   	$("#body").css('overflow-x','hidden');
+});
+
+$(document).ready(function($){
+
+	$('#carousel').carousel({
+		//width: 320, 
+		//height: 150, 
+		itemWidth:120, 
+		horizontalRadius:90, 
+		verticalRadius:40, 
+		resize:false, 
+		mouseScroll:false, 
+		mouseDrag:true, 
+		scaleRatio:0.635, 
+		scrollbar:true, 
+		tooltip:true, 
+		mouseWheel:true, 
+		mouseWheelReverse:true
+	});
+	
+});
+</script>
+
+</head>
+<body   style="background:#FFE881">
+<div id="body"><!-----------#190f44-------------->
+
+ <div class="top-main"> 
+   <a class="mscBtn" id="audioBtn"></a> 
+		<!--------yao--声音------------------->
+	 <div class="phb_imgs">
+	 	<img src="images/hd.png"   onclick="document.getElementById('artert_one').style.display='block';">
+	 </div>
+	  
+     <div class="tops"><img src="images/top.png"></div>
+      <div class="tops_pic"><img src="images/e.gif"></div>
+     
+    
+ </div>
+ 
+ 
+  <!-------------show1------------------>
+<div  class="center_sta ">
+ <section class="stage ">
+ 	 <div id="wide-wrapper">
+	  <ul id="carousel" >
+		  <li><img src="images/egg.png" alt=""/  ></li>
+			<li><img src="images/egg.png" alt=""/  ></li>
+	    <li><img src="images/egg.png" alt=""/  ></li>
+		</ul>
+	</div>
+ </section>
+ </div>
+
+<!-------------show2------------------>
+ <div class="ftext">
+  
+ 	 <div class="ftext_lmy">
+ 	  <h2>已有 <span> 0 </span> 人参加</h2>
+ 	  <p>您今天还有 <span> 3 </span> 次机会</p>
+ 	 </div>
+ </div>
+
+<!-------end------->
+<div style="height:2rem;"></div> 
+<div class="footer"><p>欢迎支持</p></div>
+
+</div><!---------end------->
+
+
+<!-----------------------没有中奖------------------------>      		
+
+ <div id="hdsm" class="dn">
+	 <div class="sm_at" >
+	 	  <ul class="clearfix">
+       <li> <h2>很遗憾!</h2><p>你没有抽取到红包</p> </li>
+       <li><img src="images/q1.png"   onclick="document.getElementById('hdsm').style.display='none';"> </li>
+      </ul>
+	 </div>
+	</div>
+	
+<!-------弹窗--中奖------>		
+		
+	<div id="hdsm_tw" class="dn">
+	  <div class="sm_at_zj" >
+	 	  <ul class="clearfix">
+       <li> <h2>恭喜您!</h2><p>中了 <b>10</b> 元红包</p> </li>
+       <li><img src="images/q1.png"> </li>
+      </ul>
+	  </div>
+	</div>
+
+
+<!--------end------>
+
+
+
+<script type="text/javascript">
+$(function(){
+    myFun.tab(".tabThis");
+    $(".tabThis .hd li").eq(2).click();
+});     
+
+	$(function(){ 
+		 	$("#carousel img ").click(function(){
+ 	    var gm=$(this).attr('src','images/egg2.gif');
+ 	   // console.log(gm);
+ 	  
+ 	   }); 
+ 	 });
+
+	 var audio;
+		  $(function(){
+			audio =  new Audio("mp3/city.mp3");
+			audio.play();
+			audio.autoplay = true;
+			audio.loop = true;
+			});
+				//播放-暂停
+		$("#audioBtn").click(function(){
+		//	alert("Alert text");
+			if(audio.paused){
+				audio.play();
+				$("#audioBtn").removeClass("mscBtn_stop").addClass("mscBtn");
+			}else{
+				audio.pause();
+				$("#audioBtn").removeClass("mscBtn").addClass("mscBtn_stop");
+			}
+		});
+			
+			
+		
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>

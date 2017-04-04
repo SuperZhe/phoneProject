@@ -1,0 +1,38 @@
+.ss-2 {
+  width: 100%;
+  height: 100%;
+}
+.ss-2 .ss2-span1 {
+  color: #43aefc;
+  display: block;
+  margin-left: 110px;
+  margin-top: 10px;
+}
+.ss-2 .ss2-box2 {
+  margin: 32px 0px 10px 3px;
+}
+.ss-2 .ss2-box2 input {
+  height: 32px;
+  line-height: 32px;
+  border: 1px solid #dcdce0;
+  width: 200px;
+  margin-left: 10px;
+}
+.ss-2 .ss2-span3 {
+  width: 143px;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  color: #fff;
+  border-radius: 5px;
+  background-color: #ff4200;
+  display: block;
+  margin-left: 107px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.ss-2 .ss-result2 {
+  padding: 0px 0px 10px 76px;
+  width: 100%;
+  height: 20px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<style>
+			div{
+				width:100%;
+			}
+			#image{
+				display:block;
+				margin:0 auto;
+				width:1000px;
+				height:500px;
+			}
+		</style>
+		
+		<div>
+			<img id="image" src="img/55891fe9b89d4.jpg" alt="" />
+		</div>
+        
+		<script src="js/jquery-1.11.0.min.js"></script>
+		<script src="js/jquery.animations.min.js"></script>
+        <script src="js/jquery.animations-tile.js"></script>
+        <script src="js/app.js"></script>
+		
+		<script type="text/javascript">
+		$('#image').animate('tile', {
+				"effect": "fadeIn",
+				"sequent": true,
+				"adjustDuration": true
+			});
+		</script>
+		
+	</body>
+</html>
